@@ -1,0 +1,99 @@
+* {
+    outline: 1px dotted red;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+
+div {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    height: 100px;
+}
+
+#wrapper {
+    flex-direction: column;
+    background-color: black;
+    /* margin: auto; */
+    width: 500px;
+}
+
+#title {
+    justify-content: space-between;
+}
+
+#title div{
+    flex-direction: column;
+    width: 170px;
+}
+
+#score {
+    width: 150px;
+}
+
+#world {
+    flex-direction: column;
+
+}
+
+.row {
+    width: fit-content;
+}
+
+.row div {
+    height: 50px;
+    width: 50px;
+}
+
+.brick {
+    background-color: blue;
+}
+
+.coin {
+    background-image: url(images/coin.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+}
+
+#pacman {
+    background-image: url(images/Pacman.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+#pacman2 {
+    background-image: url(images/Pacman.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+#pumpky {
+    background-image: url(images/pumpky.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+#cherry {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+
